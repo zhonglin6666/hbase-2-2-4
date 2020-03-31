@@ -1,0 +1,24 @@
+2020-03-31 00:54:28,542 INFO  [main] thrift.ThriftServer: ***** STARTING service 'ThriftServer' *****
+2020-03-31 00:54:28,554 INFO  [main] util.VersionInfo: HBase 2.1.2
+2020-03-31 00:54:28,554 INFO  [main] util.VersionInfo: Source code repository git://kalashnikov/Users/stack/checkouts/hbase.git revision=1dfc418f77801fbfb59a125756891b9100c1fc6d
+2020-03-31 00:54:28,554 INFO  [main] util.VersionInfo: Compiled by stack on Sun Dec 30 21:45:09 PST 2018
+2020-03-31 00:54:28,554 INFO  [main] util.VersionInfo: From source with checksum 5701bcce2fc4832a4b2990adc735b516
+2020-03-31 00:54:29,177 INFO  [main] thrift.ThriftServerRunner: Using default thrift server type
+2020-03-31 00:54:29,178 INFO  [main] thrift.ThriftServerRunner: Using thrift server type threadpool
+2020-03-31 00:54:29,276 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-03-31 00:54:30,469 INFO  [main] metrics.MetricRegistries: Loaded MetricRegistries class org.apache.hadoop.hbase.metrics.impl.MetricRegistriesImpl
+2020-03-31 00:54:30,643 INFO  [main] util.log: Logging initialized @2485ms
+2020-03-31 00:54:30,836 INFO  [main] http.HttpRequestLog: Http request log for http.requests.thrift is not defined
+2020-03-31 00:54:30,860 INFO  [main] http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.hbase.http.HttpServer$QuotingInputFilter)
+2020-03-31 00:54:30,861 INFO  [main] http.HttpServer: Added global filter 'clickjackingprevention' (class=org.apache.hadoop.hbase.http.ClickjackingPreventionFilter)
+2020-03-31 00:54:30,877 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context thrift
+2020-03-31 00:54:30,877 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context logs
+2020-03-31 00:54:30,881 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+2020-03-31 00:54:30,934 INFO  [main] http.HttpServer: Jetty bound to port 9095
+2020-03-31 00:54:30,935 INFO  [main] server.Server: jetty-9.3.19.v20170502
+2020-03-31 00:54:31,009 INFO  [main] handler.ContextHandler: Started o.e.j.s.ServletContextHandler@41e1e210{/logs,file:///opt/hbase/logs/,AVAILABLE}
+2020-03-31 00:54:31,010 INFO  [main] handler.ContextHandler: Started o.e.j.s.ServletContextHandler@4944252c{/static,file:///opt/hbase/hbase-webapps/static/,AVAILABLE}
+2020-03-31 00:54:31,333 INFO  [main] handler.ContextHandler: Started o.e.j.w.WebAppContext@5386659f{/,file:///opt/hbase/hbase-webapps/thrift/,AVAILABLE}{file:/opt/hbase/hbase-webapps/thrift}
+2020-03-31 00:54:31,353 INFO  [main] server.AbstractConnector: Started ServerConnector@2ffa352c{HTTP/1.1,[http/1.1]}{0.0.0.0:9095}
+2020-03-31 00:54:31,353 INFO  [main] server.Server: Started @3197ms
+2020-03-31 00:54:31,402 INFO  [main] thrift.ThriftServerRunner: starting TBoundedThreadPoolServer on /0.0.0.0:9090 with readTimeout 60000ms; min worker threads=16, max worker threads=1000, max queued requests=1000
